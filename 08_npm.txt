@@ -1,0 +1,24 @@
+npm - global cmd, comes with nodejs
+
+some useful commands
+npm install -g npm
+npm install -g npm-check-updates
+npm install -g npm-check
+npm --version
+
+local dependencies - installed in the current project folder
+npm i <package-name>
+npm i <package-name> --save-dev
+npm i <package-name> --save
+npm i <package-name> --save-optional
+npm i <package-name> --save-exact
+npm i <package-name> --save-bundle
+
+global dependencies - use it in any project
+npm i -g <package-name>
+
+package.json - manifest file (stores important info about project/package)
+three ways to create package.json
+-manual approach (create package.json in the root, create properties etc)
+-npm init (step by step, press enter to skip)
+-npm init -y (yes to all)
