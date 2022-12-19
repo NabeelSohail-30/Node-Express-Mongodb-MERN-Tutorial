@@ -91,3 +91,25 @@ readFile('./content/result-async.txt', 'utf8', (err, result) => {
 })
 
 console.log('end')
+
+//async is non-blocking
+//sync is blocking
+//async is faster
+//sync is easier to read
+//sync is easier to debug
+//sync is easier to write
+//sync is easier to maintain
+//sync is easier to understand
+//sync is easier to test
+//sync is easier to use
+//async is easier to scale
+//async is easier to handle errors
+//async is easier to handle multiple requests
+//async is easier to handle multiple files
+//async is easier to handle multiple operations
+//async is easier to handle multiple tasks
+//async is easier to handle multiple processes
+//alternative to async is promises, which is easier to read and write
+//alternative to async is async/await, which is easier to read and write
+
+
