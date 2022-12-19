@@ -57,7 +57,7 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
         console.log(err)
         return
     }
-    console.log(`first file: ${result}`);
+    //console.log(`first file: ${result}`);
     const first = result    //store first file content
     //read second file
     readFile('./content/second.txt', 'utf8', (err, result) => {
@@ -65,7 +65,7 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
             console.log(err)
             return
         }
-        console.log(`second file: ${result}`);
+        //console.log(`second file: ${result}`);
         const second = result  //store second file content
         //write to file
         writeFile(
@@ -76,7 +76,7 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
                     console.log(err)
                     return
                 }
-                console.log('done with this task')
+                //console.log('done with this task')
             }
         )
     })
@@ -87,8 +87,10 @@ readFile('./content/result-async.txt', 'utf8', (err, result) => {
         console.log(err)
         return
     }
-    console.log(`new file content: ${result}`);
+    //console.log(`new file content: ${result}`);
 })
+
+//all the consoles for the async approach are commented to avoid confusion
 
 console.log('end')
 
@@ -111,5 +113,3 @@ console.log('end')
 //async is easier to handle multiple processes
 //alternative to async is promises, which is easier to read and write
 //alternative to async is async/await, which is easier to read and write
-
-
